@@ -11,9 +11,13 @@
     <span>Informações</span>
     <div>
     <div class="item">
-    <form action="" method="post">
-    <input type="number" name="numero"><br><br>
-    <input type="submit">
+    <form action="" method="form">
+    <input type="number" name="numero"><br>
+    <input type="number" name="numero"><br>
+    <input type="number" name="numero"><br>
+    <input type="number" name="numero"><br>
+    <br><br>
+    <button type="button" onclick="validar()">Enviar!</button>
     </div>
     <?php
     
