@@ -6,15 +6,14 @@
     <title>Sistema Salário</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src=''></script>
 </head>
 <body>
-    <h1>Informações</h1>
+    <span>Informações</span>
     <div>
-        <form action="" method="post">
-        <input type="" name="">
-        <input type="submit">
-        </form>
+    <div class="item">
+    <form action="" method="post">
+    <input type="number" name="numero"><br><br>
+    <input type="submit">
     </div>
     <?php
     
