@@ -24,7 +24,7 @@
         $meta_mensal = $_POST['meta_mensal'];
             
     //Para a definição dos valores para resultar ao salário
-        $salario_minimo = 1927.02; // Salário mínimo atualmene
+        $salario_minimo = 1927.02; // Salário mínimo atualmente para vendedor
         $valor_meta_semanal = $meta_semanal * 0.01;
         $valor_excedente_semanal = ($meta_semanal > 20000) ? ($meta_semanal - 20000) * 0.05 : 0;
         $valor_excedente_mensal = ($meta_mensal > 80000 && $meta_semanal <= 20000) ? ($meta_mensal - 80000) * 0.10 : 0;
