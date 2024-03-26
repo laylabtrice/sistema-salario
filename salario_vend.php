@@ -6,31 +6,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Calculo de Salário por Vendedor</h2>
+    <h2>Calculo de Salário por Vendedor em reais</h2>
     <div class="container">
         <form method="post">
-            <label for="nome">Nome Vendedor(a):</label><br>
-            <input type="text" id="nome" name="nome" required><br>
-            <label for="meta_semanal1">Meta da Semana 1 (em R$):</label><br>
-            <input type="number" id="meta_semanal1" name="meta_semanal1" min="0" required><br>
-            <label for="vendas_semana1">Vendas Realizadas na Semana 1 (em R$):</label><br>
-            <input type="number" id="vendas_semana1" name="vendas_semana1" min="0" required><br>
-            <label for="meta_semanal2">Meta da Semana 2 (em R$):</label><br>
-            <input type="number" id="meta_semanal2" name="meta_semanal2" min="0" required><br>
-            <label for="vendas_semana2">Vendas Realizadas na Semana 2 (em R$):</label><br>
-            <input type="number" id="vendas_semana2" name="vendas_semana2" min="0" required><br>
-            <label for="meta_semanal3">Meta da Semana 3 (em R$):</label><br>
-            <input type="number" id="meta_semanal3" name="meta_semanal3" min="0" required><br>
-            <label for="vendas_semana3">Vendas Realizadas na Semana 3 (em R$):</label><br>
-            <input type="number" id="vendas_semana3" name="vendas_semana3" min="0" required><br>
-            <label for="meta_semanal4">Meta da Semanaa 4 (em R$):</label><br>
-            <input type="number" id="meta_semanal4" name="meta_semanal4" min="0" required><br>
-            <label for="vendas_semana4">Vendas Realizadas na Semana 4 (em R$):</label><br>
-            <input type="number" id="vendas_semana4" name="vendas_semana4" min="0" required><br>
-            <label for="meta_mensal">Meta proposta Mensal (em R$):</label><br>
-            <input type="number" id="meta_mensal" name="meta_mensal" min="0" required><br>
-            <label for="vendas_mes">Vendas Realizadas no Mês (em R$):</label><br>
-            <input type="number" id="vendas_mes" name="vendas_mes" min="0" required><br><br>
+            <label for="nome">Nome Vendedor(a):</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="meta_semanal1">Meta da Semana 1:</label>
+            <input type="number" id="meta_semanal1" name="meta_semanal1" min="0" required>
+            <label for="vendas_semana1">Vendas Realizadas na Semana 1:</label>
+            <input type="number" id="vendas_semana1" name="vendas_semana1" min="0" required>
+            <label for="meta_semanal2">Meta da Semana 2:</label>
+            <input type="number" id="meta_semanal2" name="meta_semanal2" min="0" required>
+            <label for="vendas_semana2">Vendas Realizadas na Semana 2:</label>
+            <input type="number" id="vendas_semana2" name="vendas_semana2" min="0" required>
+            <label for="meta_semanal3">Meta da Semana 3:</label>
+            <input type="number" id="meta_semanal3" name="meta_semanal3" min="0" required>
+            <label for="vendas_semana3">Vendas Realizadas na Semana 3:</label>
+            <input type="number" id="vendas_semana3" name="vendas_semana3" min="0" required>
+            <label for="meta_semanal4">Meta da Semana 4:</label>
+            <input type="number" id="meta_semanal4" name="meta_semanal4" min="0" required>
+            <label for="vendas_semana4">Vendas Realizadas na Semana 4:</label>
+            <input type="number" id="vendas_semana4" name="vendas_semana4" min="0" required>
+            <label for="meta_mensal">Meta proposta Mensal:</label>
+            <input type="number" id="meta_mensal" name="meta_mensal" min="0" required>
+            <label for="vendas_mes">Vendas Realizadas no mês:</label>
+            <input type="number" id="vendas_mes" name="vendas_mes" min="0" required><br><br><br>
             <button type="submit" name="submit">Clique para calcular !!</button>
         </form>
  
