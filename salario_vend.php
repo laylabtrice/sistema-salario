@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h2>Calculo de Salário por Vendedor</h2>
     <div class="container">
-        <h2>Salário Vendedor</h2>
         <form method="post">
             <label for="nome">Nome Vendedor(a):</label><br>
             <input type="text" id="nome" name="nome" required><br>
