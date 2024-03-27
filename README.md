@@ -6,7 +6,7 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
  
 1. [Funcionalidades](#funcionalidades)
 2. [Como usar](#como-usar)
-3. [Telas](#telas)
+3. [Tela](#tela)
 4. [Como funciona](#como-funciona)
 5. [Estrutura de arquivos](#estrutura-de-arquivos)
 6. [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -42,17 +42,9 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 3. Clique no botão inferior para gerar o resultado relativo ao valor do salário.
 4. O sistema irá calcular o salário final do vendedor e exibir na página.
 
-## Telas
+## Tela
 
-![Imagem 1](https://github.com/laylabtrice/sistema-salario/blob/main/img1.png)
-- Tela para inserir as informações do vendedor, possuindo as campos para nome, metas e vendas total.
-![Imagem 2](https://github.com/laylabtrice/sistema-salario/blob/main/img1.2.png)
-- Continuação da Tela 1, mostrando o botão para gerar os resultados do salário.
-  
-![Imagem 3](https://github.com/laylabtrice/sistema-salario/blob/main/casoN.png)
-- Caso usuário não preencha os campos corretamente, em ordem será mostrado tal aviso.
-![Imagem 4](https://github.com/laylabtrice/sistema-salario/blob/main/resultado.png)
-- Resultado de salário caso todos os campos sejam preenchidos de forma correta, com um nome fictício de vendedor.
+
  
 ## Estrutura de arquivos
  
