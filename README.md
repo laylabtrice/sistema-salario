@@ -15,9 +15,8 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 9. [Autor](#autor)
  
 ## Funcionalidades  
- 
-- Solicita o nome do vendedor, a metas e vendas semanais (4 semanas) e a meta e venda total mensal.
-* Calcula o salário final do vendedor com base nas seguintes regras:
+ Solicita o nome do vendedor, a metas e vendas semanais (4 semanas) e a meta e venda total mensal.    
+## Calcula o salário final do vendedor com base nas seguintes regras:
 - Todo vendedor tem um salário mínimo definido;
 - Todo vendedor tem uma meta de venda semanal e mensal;
 - Todo vendedor tem suas vendas feitas por semana e ao mês;
