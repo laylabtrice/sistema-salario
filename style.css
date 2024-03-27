@@ -47,6 +47,7 @@ textarea {
  
 textarea {
     height: 100px;
+
 }
  
 button {
@@ -68,6 +69,6 @@ button:hover {
 p {
     text-align: center;
     margin-top: 20px;
-    color: #333;
+    color: rgb(65, 55, 55);
     font-size: 16px;
 }
