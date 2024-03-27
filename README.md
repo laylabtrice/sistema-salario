@@ -37,14 +37,14 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
  
 ## Como usar
  
-1. Abra o arquivo `index.php` em um navegador web.
+1. Abra o arquivo `index.php` em um navegador via web.
 2. Preencha o nome do vendedor, a meta e vendas semanais e a meta e venda total mensal nos campos fornecidos.
 3. Clique no botão inferior para gerar o resultado relativo ao valor do salário.
 4. O sistema irá calcular o salário final do vendedor e exibir na página.
 
 ## Telas
 
-![Imagem](img/img1.png)
+![Imagem 1](https://github.com/laylabtrice/sistema-salario/blob/main/casoN.png)
  
 ## Estrutura de arquivos
  
