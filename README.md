@@ -6,10 +6,12 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
  
 1. [Funcionalidades](#funcionalidades)
 2. [Como usar](#como-usar)
-3. [Estrutura de arquivos](#estrutura-de-arquivos)
-4. [Tecnologias utilizadas](#tecnologias-utilizadas)
-5. [Autor](#autor)
-6. [Fontes](#fontes)
+3. [Telas](#telas)
+4. [Como funciona](#como-funciona)
+5. [Estrutura de arquivos](#estrutura-de-arquivos)
+6. [Tecnologias utilizadas](#tecnologias-utilizadas)
+7. [Fontes](#fontes)
+8. [Autor](#autor)
  
 ## Funcionalidades
  
@@ -21,6 +23,17 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 - Se o vendedor ultrapassar a meta semanal, ele recebe um percentual sobre o excedente;
 - Se o vendedor ultrapassar a meta mensal, ele recebe uma bonificação sobre o excedente;
 - Caso o vendedor não bata ao menos uma meta semanal, ele perde o direito à bonificação sobre o excedente mensal.
+
+## Como funciona
+
+1. O usuário abre o arquivo `index.php` em um navegador web.
+2. O sistema exibe um formulário onde o usuário insere o nome do vendedor, a meta semanal e a meta mensal.
+3. Após preencher os dados, o usuário clica no botão "Calcular Salário".
+4. O sistema utiliza a lógica implementada em PHP para calcular o salário final do vendedor com base nas metas fornecidas.
+5. Se o vendedor ultrapassar a meta semanal, o sistema calcula um percentual sobre o excedente e adiciona ao salário final.
+6. Se o vendedor ultrapassar a meta mensal, o sistema calcula uma bonificação sobre o excedente e adiciona ao salário final, desde que tenha alcançado pelo menos uma meta semanal.
+7. Caso o vendedor não atinja ao menos uma meta semanal, ele perde o direito à bonificação sobre o excedente mensal.
+8. O sistema exibe o salário final calculado na página.
  
 ## Como usar
  
@@ -28,6 +41,10 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 2. Preencha o nome do vendedor, a meta e vendas semanais e a meta e venda total mensal nos campos fornecidos.
 3. Clique no botão inferior para gerar o resultado relativo ao valor do salário.
 4. O sistema irá calcular o salário final do vendedor e exibir na página.
+
+## Telas
+
+![Imagem](img/img1.png)
  
 ## Estrutura de arquivos
  
@@ -37,16 +54,18 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
  
 ## Tecnologias utilizadas
  
-- PHP
-- HTML
-- CSS
+## Tecnologias utilizadas
+ 
+- **PHP**: Linguagem de programação usada para criar a lógica de cálculo do salário do vendedor.
+- **HTML**: Linguagem de marcação utilizada para criar a estrutura do formulário e da página.
+- **CSS**: Utilizado para estilizar a página e proporcionar uma melhor experiência de usuário
 
 ## Fontes
 
--
--
--
+- [Salário vendedor](https://www.aen.pr.gov.br/Noticia/Maior-do-Brasil-governador-confirma-novo-Piso-Regional-que-vai-de-R-18-mil-R-21-mil#:~:text=Na%20primeira%2C%20que%20contempla%20os,de%20R%24%201.927%2C02)
+- [Base para formuário](https://www.devmedia.com.br/customizando-formularios-com-css/37212)
  
 ## Autor
- 
-Este sistema foi desenvolvido por Layla Beatrice Ribeiro 
+
+
+Este projeto foi desenvolvido por- [@Layla Beatrice](https://www.github.com/laylabtrice)

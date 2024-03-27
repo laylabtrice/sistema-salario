@@ -1,65 +1,73 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:blanchedalmond; 
+    background-color: #cd8181; 
 }
  
 .container {
-    width: 60%;
+    width: 80%;
     margin: 50px auto;
-    background-color: beige;
+    background-color: bisque;
     padding: 40px;
     border-radius: 20px;
-    border: 2px solid #800020; 
+    border: 3px solid #800020;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
  
 h2 {
     text-align: center;
-    color: #800020; 
+    color: #800020;
+    font-size: 28px;
     margin-bottom: 30px;
 }
  
 form {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
  
 label {
     font-weight: bold;
-    display: block;
-    margin-bottom: 15px;
-    color: rgb(144, 124, 124);
-    font-size: 20px;
+    color: #333;
+    font-size: 18px;
 }
  
 input[type="text"],
 input[type="number"],
-button {
-    width: 70%;
-    padding: 15px;
-    margin: 10px auto;
-    border: 2px solid #a34848; 
-    border-radius: 20px;
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    color: rgb(144, 124, 124);
-    background-color: #fff;
+    font-size: 18px;
+}
+ 
+textarea {
+    height: 100px;
 }
  
 button {
-    background-color:#800020;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #800020;
     color: #fff;
+    font-size: 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease;
 }
  
 button:hover {
-    background-color: #800020;
+    background-color: #5d001e;
 }
  
 p {
     text-align: center;
     margin-top: 20px;
-    color: rgb(144, 124, 124);
-    font-size: 18px;
+    color: #333;
+    font-size: 16px;
 }
