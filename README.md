@@ -40,19 +40,19 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
   
 1.
 Define metas semanais, meta mensal e vendas nesse período.
-![Definir metas e vendas semana-mes](https://github.com/laylabtrice/sistema-salario/blob/main/img/IMG2.png)  
+![Definir metas e vendas semana-mes](https://github.com/laylabtrice/sistema-salario/blob/main/imagens/IMG2.png)  
   
 2.
 Define salário minímo para vendedor, porcentagem de lucro caso excedente e os valores 'venda' para calculo.
-![Definir para calculo](https://github.com/laylabtrice/sistema-salario/blob/main/img/IMG3.png)
+![Definir para calculo](https://github.com/laylabtrice/sistema-salario/blob/main/imagens/IMG3.png)
   
 3.
 Calcula salário por vendedor com base nos resultados dos dados de venda e metas (Se realizadas).
-![Calcula salário](https://github.com/laylabtrice/sistema-salario/blob/main/img/IMG4.png)
+![Calcula salário](https://github.com/laylabtrice/sistema-salario/blob/main/imagens/IMG4.png)
   
 4.
 Mostra resultado de salário com nome do vendedor.
-![Resultado de Salário](https://github.com/laylabtrice/sistema-salario/blob/main/img/IMG5.png)
+![Resultado de Salário](https://github.com/laylabtrice/sistema-salario/blob/main/imagens/IMG5.png)
   
 ## Como usar  
  
@@ -63,7 +63,7 @@ Mostra resultado de salário com nome do vendedor.
 
 ## Tela
 
-![Tela](https://github.com/laylabtrice/sistema-salario/blob/main/img/IMG.png)
+![Tela](https://github.com/laylabtrice/sistema-salario/blob/main/imagens/IMG.png)
   
 ## Estrutura de arquivos  
  
