@@ -44,7 +44,7 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 
 ## Tela
 
-
+![Tela](https://github.com/laylabtrice/sistema-salario/blob/main/Captura%20de%20tela%202024-03-27%20090222.png)
  
 ## Estrutura de arquivos
  
