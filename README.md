@@ -34,8 +34,12 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 6. Se o vendedor ultrapassar a meta mensal, o sistema calcula uma bonificação sobre o excedente e adiciona ao salário final, desde que tenha alcançado pelo menos uma meta semanal.
 7. Caso o vendedor não atinja ao menos uma meta semanal, ele perde o direito à bonificação sobre o excedente mensal.
 8. O sistema exibe o salário final calculado na página.
+  
+* Define metas semanais, meta mensal e vendas nesse período.
+![Definir metas e vendas semana-mes](https://github.com/laylabtrice/sistema-salario/blob/main/Captura%20de%20tela%202024-03-27%20113102.png)  
 
-![Definir metas e vendas semana-mes]()
+* Define salário minímo para vendedor, porcentagem de lucro caso excedente e os valores 'venda' para calculo.
+![Definir para calculo]()
  
 ## Como usar
  
