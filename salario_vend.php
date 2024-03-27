@@ -68,7 +68,6 @@
     // Exibição do salário que o vendedor irá receber no mês
     echo "<p>Nome do Vendedor: $nome</p>";
     echo "<p>Salário Final: R$ " . number_format($salario_final, 2, ',', '.') . "</p>";
-}
-    ?>
+} ?>
     </body>
 </html>
