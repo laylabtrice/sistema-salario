@@ -44,7 +44,15 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 
 ## Telas
 
-![Imagem 1](https://github.com/laylabtrice/sistema-salario/blob/main/casoN.png)
+![Imagem 1](https://github.com/laylabtrice/sistema-salario/blob/main/img1.png)
+- Tela para inserir as informações do vendedor, possuindo as campos para nome, metas e vendas total.
+![Imagem 2](https://github.com/laylabtrice/sistema-salario/blob/main/img1.2.png)
+- Continuação da Tela 1, mostrando o botão para gerar os resultados do salário.
+  
+![Imagem 3](https://github.com/laylabtrice/sistema-salario/blob/main/casoN.png)
+- Caso usuário não preencha os campos corretamente, em ordem será mostrado tal aviso.
+![Imagem 4](https://github.com/laylabtrice/sistema-salario/blob/main/resultado.png)
+- Resultado de salário caso todos os campos sejam preenchidos de forma correta, com um nome fictício de vendedor.
  
 ## Estrutura de arquivos
  
@@ -64,8 +72,9 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 
 - [Salário vendedor](https://www.aen.pr.gov.br/Noticia/Maior-do-Brasil-governador-confirma-novo-Piso-Regional-que-vai-de-R-18-mil-R-21-mil#:~:text=Na%20primeira%2C%20que%20contempla%20os,de%20R%24%201.927%2C02)
 - [Base para formuário](https://www.devmedia.com.br/customizando-formularios-com-css/37212)
+- [Inserir imagens](https://github.com/orgs/community/discussions/66495)
  
 ## Autor
 
-
 Este projeto foi desenvolvido por- [@Layla Beatrice](https://www.github.com/laylabtrice)
+* [Linkedin](https://www.linkedin.com/in/layla-beatrice-a89a352ba/)
