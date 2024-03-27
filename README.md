@@ -6,7 +6,7 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
  
 1. [Funcionalidades](#funcionalidades)
 2. [Como usar](#como-usar)
-3. [Explicação cod.](#explicação-de-cod)
+3. [Explicação de código.](#explicação-de-código)
 4. [Tela](#tela)
 5. [Como funciona](#como-funciona)
 6. [Estrutura de arquivos](#estrutura-de-arquivos)
@@ -36,17 +36,20 @@ Este é um sistema desenvolvido em PHP para calcular o salário de um vendedor c
 7. Caso o vendedor não atinja ao menos uma meta semanal, ele perde o direito à bonificação sobre o excedente mensal.
 8. O sistema exibe o salário final calculado na página.
   
-## Explicação de cod.  
+## Explicação de código.  
+### PHP
   
 1.
 Define metas semanais, meta mensal e vendas nesse período.
 ![Definir metas e vendas semana-mes](https://github.com/laylabtrice/sistema-salario/blob/main/Captura%20de%20tela%202024-03-27%20113102.png)  
   
 2.
-* Define salário minímo para vendedor, porcentagem de lucro caso excedente e os valores 'venda' para calculo.
+Define salário minímo para vendedor, porcentagem de lucro caso excedente e os valores 'venda' para calculo.
 ![Definir para calculo](https://github.com/laylabtrice/sistema-salario/blob/main/Captura%20de%20tela%202024-03-27%20113542.png)
   
 3.
+Calcula salário por vendedor com base nos resultados dos dados de venda e metas (Se realizadas).
+![Calcula salário](https://github.com/laylabtrice/sistema-salario/blob/main/Captura%20de%20tela%202024-03-27%20114206.png)
 
 ## Como usar
  
